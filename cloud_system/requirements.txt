@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+pymongo
+cryptography
+google-genai
+sendgrid
+python-multipart

@@ -1,0 +1,35 @@
+# Python virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Local storage directories
+local_storage/
+.local_storage/
+ 
+# Python cache directories and files
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+
+# Cloud storage temp directories
+temp_cloud_storage/
+.temp_cloud_storage/
+temp_cloud_storage_*/
+.temp_cloud_storage_*/
+
+# Manual Setup
+manual_setup/
+.manual_setup/
+
+# Logs
+logs/
+.logs/
+
+# Models
+yolov8s.pt
+
+vosk-model-small-pt/
+.vosk-model-small-pt/

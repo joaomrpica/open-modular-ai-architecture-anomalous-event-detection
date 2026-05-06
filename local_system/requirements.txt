@@ -1,0 +1,15 @@
+numpy
+sounddevice
+soundfile
+opencv-python
+picamera2
+requests
+cryptography
+fastapi
+uvicorn
+pymongo
+ultralytics
+cvzone
+openai-whisper
+vosk
+rpi-lgpio
