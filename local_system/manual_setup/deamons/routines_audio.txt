@@ -1,0 +1,18 @@
+[Unit]
+Description=Modular System - routines_audio.py on boot (venv)
+After=network.target
+
+[Service]
+Type=simple
+User=[USER]
+WorkingDirectory=/[FOLDER_PATH]/open-modular-ai-architecture-anomalous-event-detection/local_system/routines
+
+# "Equivalente" a ativar o venv: usar diretamente o python do venv
+ExecStart=/[FOLDER_PATH]/p/open-modular-ai-architecture-anomalous-event-detection/venv/bin/python /[FOLDER_PATH]//open-modular-ai-architecture-anomalous-event-detection/local_system/routines/routines_audio.py
+
+# Reiniciar se falhar
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

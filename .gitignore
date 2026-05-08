@@ -20,10 +20,6 @@ temp_cloud_storage/
 temp_cloud_storage_*/
 .temp_cloud_storage_*/
 
-# Manual Setup
-manual_setup/
-.manual_setup/
-
 # Logs
 logs/
 .logs/
